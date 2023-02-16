@@ -9,7 +9,7 @@ public class CustomExceptionExe {
 	   String id  = sc.nextLine();
 	   String password =sc.nextLine();
 	   try {
-		   if (id.equals(" pratikgosavi37@gmail.com ") && password.equals( " pr@123 " ))
+		   if (id.equals(" pratikgmail.com ") && password.equals( " pr@123 " ))
 			   throw new LoginCredentials (" Invalid Creadential");
 		   else {
 			   System.out.println(" Creadential Matched   ");				   
