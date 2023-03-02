@@ -9,7 +9,7 @@ public class Client {
 	public static void main(String args[])
 	{
 		BankFactory b=new MMBankFactory();
-		MMCurrentAcc c=new MMCurrentAcc(102,"Pratik",65000.0f,60.0f);
+		MMCurrentAcc c=new MMCurrentAcc(102,"Pratik",65000f,60.0f);
 		MMSavingAcc s=new MMSavingAcc(103,"Payal",10000.0f,true);
 		System.out.println("Saving Account");
 		System.out.println(s);
